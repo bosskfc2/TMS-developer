@@ -1,3 +1,7 @@
+/**
+ * Дехтерёнок Кирилл
+ */
+
 import java.util.Scanner;
 
 public class Main {
