@@ -6,6 +6,8 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        System.out.println("HELLO WORLD!");
+
         /*
         Задача 1:
 Напишите программу, которая будет принимать на вход число из консоли и на выход
