@@ -47,10 +47,10 @@ public class Main {
         System.out.println("Введите целое положительное число: ");
         double k = sc3.nextDouble();
         int l = 0;
-        if (!(k <= (double)0.0F) && k % (double)1.0F == (double)0.0F) {
-            for(int z = 1; (double)z <= k; ++z) {
+        if (!(k <= 0) && k % 1 == 0) {
+            for(int z = 1; z <= k; ++z) {
                 l += z;
-                if ((double)z == k) {
+                if (z == k) {
                     System.out.println(z + " = " + l);
                     break;
                 }
